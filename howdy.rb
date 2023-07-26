@@ -17,3 +17,11 @@ pp "equipment".pluralize
 pp "tables".singularize   
 pp "rubies".singularize    
 pp "equipment".singularize 
+
+
+pp "What's your name?"
+
+their_name = gets
+their_name = gets.chomp
+
+puts "Hello, " + their_name + "!"
